@@ -32,9 +32,11 @@ def print_hello(name):
 
 
 def main():
-    # print_hello(sys.argv[1])
-    print("Hello, " + (" ".join(list[1:])) + "!")
+    print_hello(sys.argv[1])
+    """if len(list) > 1:
+        print("Hello, " + (" ".join(list[1:])) + "!")
+    else:
+        print("Hello, World!")"""
 
-  
+
 main()
-
