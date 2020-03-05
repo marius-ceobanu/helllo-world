@@ -19,7 +19,7 @@ list = sys.argv
     w = print(*y, sep = ", ") """
 
 
-# print(hello(""))
+# print(hello("Marius"))
 # print(hello_world())
 
 
@@ -32,11 +32,11 @@ def print_hello(name):
 
 
 def main():
-    print_hello(sys.argv[1])
-    """if len(list) > 1:
+    # print_hello(sys.argv[1])
+    if len(list) > 1:
         print("Hello, " + (" ".join(list[1:])) + "!")
     else:
-        print("Hello, World!")"""
+        print("Hello, World!")
 
 
-main()
+# main()
